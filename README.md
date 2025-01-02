@@ -22,6 +22,8 @@ This is a simple YouTube downloader script that allows you to download videos an
     or
     pip install virtualenv
     virtualenv env
+    
+    source env/bin/activate
     ```
 
     ```sh
@@ -33,7 +35,6 @@ This is a simple YouTube downloader script that allows you to download videos an
 Run the script using Python:
 
 ```sh
-source env/bin/activate
 python src/main.py
 ```
 

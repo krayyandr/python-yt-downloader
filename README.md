@@ -5,8 +5,7 @@ This is a simple YouTube downloader script that allows you to download videos an
 ## Requirements
 - ffmpeg package ( 
     example in ubuntu or debian base:
-        - sudo apt-get update
-        - sudo apt-get install ffmpeg
+        sudo apt-get update && sudo apt-get install ffmpeg
     )
 
 - Python 3.x
@@ -18,7 +17,14 @@ This is a simple YouTube downloader script that allows you to download videos an
 2. Install the required dependencies using `pip`:
 
     ```sh
-    recomend to create environment before...
+    recomend to create environment before using:
+    python -m venv env
+    or
+    pip install virtualenv
+    virtualenv env
+    ```
+
+    ```sh
     pip install -r requirements.txt
     ```
 
@@ -27,7 +33,8 @@ This is a simple YouTube downloader script that allows you to download videos an
 Run the script using Python:
 
 ```sh
-python main.py
+source env/bin/activate
+python src/main.py
 ```
 
 ## Source
@@ -37,4 +44,4 @@ https://github.com/yt-dlp/yt-dlp
 
 ## Usecase
 
-![Alt text](usecase-audio.png)
+![Alt text](usecase/usecase-audio.png)

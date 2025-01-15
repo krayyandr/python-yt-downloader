@@ -30,6 +30,11 @@ This is a simple YouTube downloader script that allows you to download videos an
     pip install -r requirements.txt
     ```
 
+3. if download doesn't work, try update yt-dlp
+    ```sh
+    pip install --upgrade yt-dlp
+    ```
+
 ## Usage
 
 Run the script using Python:
